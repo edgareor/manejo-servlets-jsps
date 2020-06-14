@@ -1,0 +1,29 @@
+body, .default {
+	color: #669;
+	font-size: 12px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-Serif";
+	line-height: 1.6em;
+}
+
+#enfasis{
+	border-collapse: collapse;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#enfasis td{
+	border-top: 1px solid #e8edff;
+	padding: 10px 15px;
+	color: #669;
+}
+
+.columna {
+	background: #d0dafd;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+
+#enfasis tr:hover td{
+	background: #eff2;
+	color: #339;
+}
